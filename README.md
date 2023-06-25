@@ -19,7 +19,7 @@
     </tr>
 </table>
 
-4. 检查选择的模型目录下的 requirements.txt 文件，例如，chinese-alpaca-plus/requirements.txt 文件。通过 pip 等工具安装指定的依赖。使用其他版本的依赖无法保证程序能够正常运行。
+4. 检查选择的模型目录下的 requirements.txt 文件，例如，chinese-alpaca-plus/requirements.txt 文件。通过 pip 等工具安装指定的依赖。使用其他版本的依赖无法保证程序能够正常运行。请注意，对于 torch，请优先安装支持 GPU 的版本，例如对 chinese-alpaca-plus， 可以安装 torch==1.13.1+cu117。
 
 ## 第二步：获取适配的模型权重文件
 
