@@ -47,12 +47,12 @@
         <td>75ddade0a97a9592daff2fe764d03000cf7561a7798c1fc054e6f3789fded45a</td> 
     </tr>
     <tr>
-        <td>pytorch_model-00001-of-00002.bin</td> 
+        <td>pytorch_model-00002-of-00002.bin</td> 
         <td>d1e32eade4c61c029f24e921380812fb698d8faf651944dc11b1ef61efdeffff</td> 
     </tr>
 </table>
 
-2. 将模型权重文件放在选择的模型的 /model 目录下（一个典型的HF格式模型权重应当包含.bin, .json和.model文件）。
+2. 将模型权重文件放在选择的模型的 /model 目录下（一个典型的HF格式模型权重应当包含一些.bin, .json和.model文件）。
 
 ## 第三步：运行程序
 
